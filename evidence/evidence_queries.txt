@@ -1,0 +1,52 @@
+
+== BD: bd_kevin_mendoza_micaela | Kevin Mendoza | Clan Micaela ==
+
+--- QUERY 1: Available stock per product ---
++--------------------+-------------+-----------------+
+|      product       |  category   | available_stock |
++--------------------+-------------+-----------------+
+| Guante de Nitrilo  | EPP         |             340 |
+| Casco Industrial   | EPP         |            -192 |
+| Electrodo E6013    | Consumible  |            -211 |
+| Disco de Corte 4.5 | Herramienta |            -595 |
++--------------------+-------------+-----------------+
+(4 rows)
+
+--- QUERY 3: Total per supplier ---
++--------------------------+-------------+--------+-------+-------------+
+|      supplier_name       |  city_name  | orders | units |  total_cop  |
++--------------------------+-------------+--------+-------+-------------+
+| Aceros del Norte S.A.S   | Cartagena   |      8 |  1012 | 92663191.00 |
+| Industriales S.A.S       | Cartagena   |      7 |   714 | 36710192.00 |
+| Suministros Global S.A.S | Santa Marta |      2 |   272 | 33586201.00 |
++--------------------------+-------------+--------+-------+-------------+
+(3 rows)
+
+--- QUERY 4: Movements per warehouse ---
++------------------------+--------------+-------+-----+------+
+|     warehouse_name     |  city_name   | total | ins | outs |
++------------------------+--------------+-------+-----+------+
+| Bodega Central         | Barranquilla |     8 |   3 |    5 |
+| Bodega Costa           | Santa Marta  |     7 |   3 |    4 |
+| Centro Logistico Norte | Cartagena    |     4 |   1 |    3 |
++------------------------+--------------+-------+-----+------+
+(3 rows)
+
+--- QUERY 5: Product with highest purchase volume ---
++-------------------+---------------+-------------+-------------+
+|   product_name    | category_name | total_units |  total_cop  |
++-------------------+---------------+-------------+-------------+
+| Guante de Nitrilo | EPP           |         840 | 61839143.00 |
++-------------------+---------------+-------------+-------------+
+(1 row)
+
+--- QUERY 6: Inventory value per warehouse ---
++------------------------+--------------+---------------------+
+|     warehouse_name     |  city_name   | inventory_value_cop |
++------------------------+--------------+---------------------+
+| Bodega Central         | Barranquilla |         23764360.00 |
+| Bodega Costa           | Santa Marta  |         10967422.00 |
+| Centro Logistico Norte | Cartagena    |          6391040.00 |
++------------------------+--------------+---------------------+
+(3 rows)
+
