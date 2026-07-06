@@ -177,4 +177,4 @@ Calculates the economic value of all IN movements per warehouse using `quantity 
 |---|---|
 | Full name | Kevin Mendoza |
 | Clan | Micaela |
-| GitHub | *(add your repository URL here)* |
+| GitHub | https://github.com/KevinMendoza04/Prueba_Base_de_Datos |
